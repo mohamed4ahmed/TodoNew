@@ -29,7 +29,7 @@ const TodosForm = (props) => {
   return (
     <div className="todos-form">
       <div className="todos-form_icon" onClick={props.showUncompleteHandle}>
-        <FeatherIcon icon="circle" color={props.mode == "edit" ? "#4ef59d" : ""} />
+        <FeatherIcon icon="circle" color={props.mode === "edit" ? "#4ef59d" : ""} />
       </div>
       <div className="todos-form_form">
         <input
